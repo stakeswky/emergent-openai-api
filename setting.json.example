@@ -1,0 +1,23 @@
+{
+  "listen_addr": ":8001",
+  "accounts_file": "accounts.json",
+  "poll_interval_seconds": 2,
+  "max_poll_attempts": 60,
+  "emergent": {
+    "api_url": "https://api.emergent.sh",
+    "app_url": "https://app.emergent.sh"
+  },
+  "tool_use": {
+    "base_url": "https://your-tool-api.example.com/v1",
+    "api_key": "your-tool-api-key",
+    "model": "gpt-4o"
+  },
+  "registration": {
+    "email_api_url": "https://your-email-api.example.com",
+    "email_api_key": "your-email-api-key",
+    "supabase_api_key": "your-supabase-anon-key",
+    "base_auth_url": "https://auth.emergent.sh",
+    "min_accounts": 3,
+    "max_accounts": 3
+  }
+}

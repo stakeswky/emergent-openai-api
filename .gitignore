@@ -21,3 +21,14 @@ ENV/
 *~
 jwt.txt
 test_response.json
+.ace-tool/
+
+# Sensitive files
+setting.json
+accounts.json
+
+# Binary
+hybrid_proxy
+
+# Python files (not part of Go project)
+*.py
